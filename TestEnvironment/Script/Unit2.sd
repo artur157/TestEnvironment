@@ -1,0 +1,25 @@
+﻿uses Lib;
+
+procedure Test2;
+begin
+  //Runs the "TestEnvironment_TD32" tested application.
+  TestedApps.TestEnvironment_TD32.Run;
+  //Maximizes the 'FMain' window.
+  Aliases.TestEnvironment_TD32_.FMain.Maximize;
+  //Clicks at the 'dxRibbonTab1|[0]|Форма с TreeList' item of the 'dxRibbon' bar.
+  Aliases.TestEnvironment_TD32_.FMain.dxRibbon.ClickItem('dxRibbonTab1|[0]|Форма с TreeList');
+  //Collapses the 2 row of the 'wChildView[1]' tree list.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].Collapse(2);
+  //Collapses the 1 row of the 'tlTest' tree list.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.Collapse(1);
+  //Clicks the 'wChildView[2]' grid cell at row 1, column 'name'.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[3].wChildView[2].ClickCell(1, 'name');
+  //Enters some text in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit2.TcxCustomInnerTextEdit.SetText(RandString);
+  //Clicks the 'wChildView[2]' grid cell at row 0, column 'name'.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.wChildView[1].wChildView[2].ClickCell(0, 'name');
+  //Enters the text '' in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FTreeList.tlTest.TcxMaskEdit2.TcxCustomInnerTextEdit.SetText('');
+  //Clicks at point (149, 898) of the 'MDIClient' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.Click(149, 898);
+end;

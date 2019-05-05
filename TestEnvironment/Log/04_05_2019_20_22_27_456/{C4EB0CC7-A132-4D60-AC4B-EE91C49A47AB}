@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 1">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test4()"/>
+			<Prp name="line no" type="I" value="8"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7226967593"/>
+					<Prp name="object bottom" type="I" value="125"/>
+					<Prp name="object top" type="I" value="23"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.dxRibbon"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi7437468797964.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7239644676"/>
+					<Prp name="object bottom" type="I" value="121"/>
+					<Prp name="object top" type="I" value="26"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.dxRibbon.Window('TdxRibbonGroupsDockControlSite', '', 1).Window('TdxRibbonGroupsDockControl', '', 1).Window('TdxRibbonGroupBarControl', '', 1)"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="62"/>
+					<Prp name="object left" type="I" value="1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="231"/>
+					<Prp name="click point x" type="I" value="181"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="2"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (64, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.dxRibbon.wItems.Item['dxRibbonTab1'].Items.Item[0].Items.Item['Форма с PivotGrid']&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').VCLObject('dxRibbon').wItems.Item['dxRibbonTab1'].Items.Item[0].Items.Item['Форма с PivotGrid'])"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="message" type="S" value="The bar item was clicked with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="date" type="D" value="43589.8489666667"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt; 					 &lt;body&gt; 					 &lt;p&gt;The test engine failed to find the needed text.&lt;/p&gt; 					 &lt;h4&gt;Full text:&lt;/h4&gt;                      &lt;pre&gt;| Income_sum&#xA;value_custom |&#xA;4 | shop_Group&#xA;4 || Square_avд&#xA;д|&#xA;[Country д | Region&#xA;Grand Total&#xA;Беларусь&#xA;Россия&#xA;ShopId A&#xA;Income_sum&#xA;Value_custom&#xA;| Income_sum&#xA;Value_custom&#xA;Income_sum&#xA;Value_custom&#xA;65&#xA;300&#xA;150&#xA;300&#xA;City Shop&#xA;+ Красногорск&#xA;| + Минск&#xA;+ Оренбург&#xA;Орск&#xA;+ Химки&#xA;Grand Total&#xA;150&#xA;380&#xA;380&#xA;200&#xA;170&#xA;| 100&#xA;0&#xA;150&#xA;825&#xA;250&#xA;&lt;/pre&gt; 					 &lt;h4&gt;Possible solutions:&lt;/h4&gt; 					 &lt;ul&gt; 					 &lt;li&gt;Make sure the needed text is present on screen.&lt;/li&gt; 					 &lt;li&gt;Use the asterisk (*) or question mark (?) wildcard to specify variable parts of the sought-for text. The asterisk corresponds to a string of any length (including an empty string), the question mark corresponds to any single character (including none).&lt;/li&gt; 					 &lt;li&gt;Use alternative approaches to simulate user actions over the needed text. &lt;a href=&quot;aqa-help://2233&quot;&gt;Learn more about alternative approaches&lt;/a&gt;.&lt;/li&gt; 					 &lt;/ul&gt; 					 &lt;p&gt;&lt;a href=&quot;aqa-help://2214&quot;&gt;Learn about possible causes of the error&lt;/a&gt;&lt;/p&gt; 					 &lt;/body&gt;                      &lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="message" type="S" value="The text 'дw' was not found."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="date" type="D" value="43589.849068287"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The process ID is 9952."/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;F:\TestEnvironment(TD32).exe&quot; started."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="date" type="D" value="43589.8489381481"/>
+		</Node>
+		<Node name="item 0">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="stacktext" type="S" value="Test4()"/>
+			<Prp name="line no" type="I" value="8"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7233101852"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="144"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi74426968979617.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="569"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7240278935"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="144"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="569"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="7"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 569, 19.&#xA;End point: 169, 140.&#xA;Dragging distance: -400, 121.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest'))"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="date" type="D" value="43589.8490416667"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7226851852"/>
+					<Prp name="object bottom" type="I" value="663"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi7437331297960.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="874"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7239584491"/>
+					<Prp name="object bottom" type="I" value="663"/>
+					<Prp name="object top" type="I" value="0"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="874"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage0_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="1"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain'))"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="message" type="S" value="The 'FMain' window was maximized."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="date" type="D" value="43589.8489590278"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7231481481"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="138"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi74413000979614.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="662"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.724009838"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="138"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="662"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="6"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 662, 13.&#xA;End point: 151, 16.&#xA;Dragging distance: -511, 3.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest'))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="date" type="D" value="43589.8490263889"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7227777778"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi7438100097965.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="280"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.723968287"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="280"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="3"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 280, 15.&#xA;End point: 49, 172.&#xA;Dragging distance: -231, 157.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest'))"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="date" type="D" value="43589.8489780093"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.723125"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi74410796979611.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="597"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7239934028"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="140"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="597"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="5"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 597, 15.&#xA;End point: 139, 9.&#xA;Dragging distance: -458, -6.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest'))"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="date" type="D" value="43589.8490083333"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{DFD1EA7F-3108-4222-AA8D-6F4589BCED77}"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="original">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7228009259"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="139"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="tcvi7438378197968.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="467"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+				</Node>
+				<Node name="current">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="43589.7239795139"/>
+					<Prp name="object bottom" type="I" value="1015"/>
+					<Prp name="object top" type="I" value="125"/>
+					<Prp name="object name" type="S" value="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="139"/>
+					<Prp name="object left" type="I" value="0"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1920"/>
+					<Prp name="click point x" type="I" value="467"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="line #" type="I" value="4"/>
+				</Node>
+			</Node>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="The mouse cursor was dragged with the no key pressed.&#xA;&#xA;Start point: 467, 14.&#xA;End point: 131, 167.&#xA;Dragging distance: -336, 153.&#xA;&#xA;Tested object:&#xA;Aliases.TestEnvironment_TD32_.FMain.MDIClient.FPivotGrid.pgTest&#xA;(Sys.Process('TestEnvironment(TD32)').VCLObject('FMain').Window('MDIClient', '', 1).VCLObject('FPivotGrid').VCLObject('pgTest'))"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="message" type="S" value="The drag operation was performed with the left mouse button."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="date" type="D" value="43589.8489918982"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="stack beginning" type="I" value="1"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;p&gt;The test run has stopped because --&lt;/p&gt;&lt;ul&gt;&lt;li&gt;An error message was posted to the log and&lt;/li&gt;&lt;li&gt;The &lt;a href=&quot;aqa-help://6090&quot;&gt;On error&lt;/a&gt; project property is set to &quot;Stop project&quot; or &quot;Stop test item&quot;.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you don't want the test to stop on errors, set this property (&lt;b&gt;Project Editor &amp;rArr; Properties &amp;rArr; Playback&lt;/b&gt;), to &quot;Continue running&quot; or change your test commands so that they do not post errors to the log automatically. For example, if a window or process was not found, use WaitWindow, WaitProcess or similar methods to get the needed object.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;aqa-help://2207&quot;&gt;Read More&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="message" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="stack end" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="date" type="D" value="43589.8490689815"/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>

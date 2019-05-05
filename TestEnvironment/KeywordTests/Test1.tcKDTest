@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="14.0">
+	<TestData Description="" Key="{3097812D-E3B8-4092-9F95-704E771979DC}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps>
+					<Bitmap Name="Aliases.TestEnvironment_TD32_" Data="61717A6970000000010000003604000078017D94D94F135114C695A5441F943FC107359A80A104B10A89D1B4142C45035AD954422C209B011E8C81284405824D2D8B402A42500BA8606D10657341DA8655038260CB560A88C852444CB4CC7CDE199610454FF2DD7B666E7EE77EF7CCCD1C15BBDB6D62C39D8C7B881C57B479D30E929158595F7ED878B4B7B777E4BA70A3453E3E4F44DEDEAD226F9F569257ED73768EB2B5B5DDBE31B5FC76BFDB7E69B65C3E7B3B3B1BB2CC1C24C46523215681AC740572E472A45FBB364DEA846D54C3F79848A62C2840E1ED1A849CEAC1BEDDFD70DA6960C5E441015DC8CFD1A0E44E11047CC18DF5350EF278E12545459067E9C0DDFB698D5BE5576766ED66C61BFA6159195CB9DC10A6868383C3B672956AA6EA513B5CFEC3AEAFA1AE6CA71F573C9C24FDD8EA251048F5CD5A9C0BEE47FC8509E27106B9B7A6213D378623878690A798869B9391F5949AFC056703CD3873BA97FED0D5054F0FCFD0A4C4C4F286DA66389333AA2BE7D150BB0059C6570C0DFE64D9DAE70B50DD9B436CC43826C6AD38E83A00E75DFD78DDA8A3E3E3E28AD352D374CAFC3A9AF1C7F099D7A7D8BD4225A3B0CC2D41C41FC6D7292BE6481E166C5EEB8D32EF05752539B991F0DA82BCE76B3CE35772C284ABC4EBB7790A116163F83C61C5F7EF1482FC47D7F8024535957CF9727D5242E2FD1A4D03F1D4C7EEFFAEE3072A2BE659A642654163DD02F4DA4528F367601EFD85C3BC4152E323ADA97C465D888C2C24FD3BDBA6D723D0BF934EB93489F20716A84AE79096F205E1A16694DFB7B01E820346517C671631D2719C14B758F54D4D20DFDD9FC3E16C79595F3FA1A96AA3457C03EB9DF1FF2F890406BAAA42B754FDF4E9908D8D0D87B903023EFFE4A0C180D2BB1D7480AF11FEBEA67FC848172B5B7EF5747553BC033C6F865D0DE979E925B3C94437BFEDA7E3A23A693FA1117EC21156622F237D31FAFDD29B57BD4B7DBDBD9444228959E5D6CFA417C7BBBBBB4D8B8B8B18191EA775DA614AAF1BA1484ECD5B2CD0EB74039E1E1EC2F5CC9FB99D9D1D472C160728148A7C8D4653A356AB9FC964B25CA150E847CEFBD71FE037A0961AF8" />
+					<Bitmap Name="Aliases.TestEnvironment_TD32_.FMain" Data="61717A697000000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3" />
+					<Bitmap Name="Aliases.TestEnvironment_TD32_.TcxCheckComboBoxPopupWindow" Data="61717A697000000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3" />
+					<Bitmap Name="Aliases.TestEnvironment_TD32_.TcxCheckComboBoxPopupWindow.TcxEditListBoxContainer" Data="61717A697000000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3" />
+					<Bitmap Name="Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow" Data="61717A697000000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3" />
+					<Bitmap Name="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow" Data="61717A697000000001000000360400007801A5934B4EC33010867FA41E8023B0E404D922B144B0E10C6CB8105760C98E23B042881542AA40A0AA94D2479A4793D8CE8319DB89824D058544937162FF9FFFB19DC39360007D05F4DCA7D8B5B1833D6AD165FBCD8B7936F8FF7D7614609B383F3DD0E3DB996FAF2FA19225643C878C6690AB0F88F01D62398158BCA198BE201F0F91BD3E207DBA473ABCF3F569A81917C7838E31BAB902BF7388D9A86BF377F6FB65FE7584763C6719CD8D2E9C920FF2423E98534C9E918D1E3D7D9925BA5FA52B93E385CEA616C3687D30C39DBFCC533DBE241F3C4E25A1CE82E7B7A1F5E4836B71F55591197DCF475B0FEBD887D6DB75F5F4220733D807D7C23E14875D57776F3CBD2C50314364C45913871859BC91E1EAEB52A2560295E6FCCCF0F45589DF31E89CD0DEB8FAA6AE506F64F4D684F697F7C6D337749A3A86A25AA4ADE59B752586ABE77F609BE8EBDB73FC97FC09DF7737F3" />
+					<Bitmap Name="Aliases.WINWORD" Data="61717A6970000000010000003604000078019D936B4C8E6118C7D97C7DDE87D90C15AF434431F3C1F8408E73983431E5BCE8800F0E5BE6B8F1054394859C42945366BCD36B0E157368BD2B4A65DEDEA8AC5A921CEA55E9EDF9B9EEE7C9C6171F5CDB753FF7BDE7FE5FF7FFFA5FD7353D6C42AF1EA64D903548BC77B7F7EC61979D58F77FEB60AD67170FE7F4C261A4860FE564D8104ECCB393327730C7660F2679D6209266047074BA3F47A6FA9318EAC7E1297F7BDA9240FED754AC0B4B4758F09A57E0C987D23C28BA87E172623CBF8DF12003EE9C82BBE7C0791E437D1D721653F88BCB479A7BAA8BC0FD9CCEC26CEE2DD6718A97A66EC6D7584BEEAA206ECDD1C98E1A85EF47AB15A31B7F79659085AFB1F0DFEE9F91FB367256D8284B5D8FAFF9230F970EC411A6E358D01F5F471B86F3A289490CF527237AF41FEFBFA0FEEA369EC5DB781A67A370CF447C6D2D3C8EF633F93816E87CAF7163E4679B9823D302B8B2B61BAFF2AFC8E7EDA1C9B8B668B83669146D1F427DDE191EC7F4E5C132C969914E4556325DB595265ED5E55A6CB0F57E6D09BC2BA078BB46C90E8D8AE353294AD028D8A8F16C5D6F8A0F85733F52272776AC70F29A98A499015C8F0FB1F07565280DDFECD5A84C1943EBFB27BCDE2D1CB6DA70250CC0DBE0212F7A20CE085D346807C3901EB17363FD180BDFF086D682342A0E687C480FC5E8F0522EB18A854BE1D67EF87EB651BC77A699C3D777A5E0F349BF05921917E23524169FAB69B81D8FE7A0C6C73B5118ED2D7812ED94ECD4709F0AE74B792EB92B75B3B66F330FD0D5F9937391E3485E36B2ACA3A519BC4D2677F77E8DC6470974799BF12405891E36AA6F265095B5CBACA9D2D031BF8F9943FAEA49C484FAA5D4BDCE814EC9A9A912E39378831BEACA458F9718D55297F72FA5375D189E02D1B810A34ACE189C8E18C178BB36D7B12FAAB1FD7B93154378F0B90A440FEA244F5517555BD55FAA4795ABB3989A3B35851387EB112A46BDF050B9987A9837FEBDA8D9FD3DCB8A47ACE4724CF4B8121FE2CDDA30D6ACCDF5B860AEC60493B9663419AB477149FA3D5D6646CD5D5A6420BF00B8A3F075" />
+				</NodeBitmaps>
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{66F32D5F-A5DB-420E-9CB4-3DB7CADE2692}">
+				<Data Description="Runs the &quot;TestEnvironment_TD32&quot; tested application." TestedApp="TestEnvironment_TD32">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Count" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+						<Parameter Name="IgnoreRunning" DefVarType="11" DefValueType="7" DefValueValue="False" VarType="11" ValueType="7" ValueValue="False" />
+						<Parameter Name="Timeout" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Maximizes the &apos;%n&apos; window." Action="Maximize">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p2, %p3) within the %p1 item of the &apos;%n&apos; bar." Action="ClickItemXY">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Item" DefVarType="12" VarType="8" ValueType="6" ValueValue="dxRibbonTab1|[0]|Форма редакторов" />
+						<Parameter Name="X" DefVarType="3" VarType="3" ValueType="1" ValueValue="37" />
+						<Parameter Name="Y" DefVarType="3" VarType="3" ValueType="1" ValueValue="15" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.dxRibbon" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="170" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="23" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters %p1 in the &apos;%n&apos; object." Action="Keys">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Keys" DefVarType="8" VarType="8" ValueType="6" ValueValue="вркяукряукру" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="144" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="ууоуоуоу" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton2" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Sets the state of the &apos;%n&apos; check box to %p1." Action="ClickButton">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="State" DefVarType="12" ParamType="{2B146992-A675-4CF3-9B71-7EE4A1CA11B2}" Expression="cbChecked" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="220" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="7" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="1351351" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton4" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="278" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="188" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="18" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxCheckComboBoxPopupWindow.TcxEditListBoxContainer.TcxCustomCheckComboBoxListBox" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton5" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="190" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="3" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Enters the text %p1 in the &apos;%n&apos; text editor." Action="SetText">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Text" DefVarType="8" VarType="8" ValueType="6" ValueValue="123" />
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="280" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="275" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="275" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="281" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="13" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton6" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="277" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="6" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="39" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="1">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="16 17 18 19 20 21 22" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values IsEnum="True">
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.TestEnvironment_TD32_.TcxDateEditPopupWindow.TcxPopupCalendar;" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="124" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="12" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="14" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="14" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="14" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="14" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="14" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Double-clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="DblClick">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestDown" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestDown" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton8" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="259" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="10" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="169" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="33" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="275" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="4" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="266" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="13" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks at point (%p1, %p2) of the &apos;%n&apos; object." Action="Click">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="ClientX" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="235" />
+						<Parameter Name="ClientY" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="5" />
+						<Parameter Name="Shift" DefVarType="12" DefValueType="1" DefValueValue="0" VarType="3" ValueType="1" ValueValue="0">
+							<Values IsEnum="True">
+								<Value Type="1" Value="0" Text="skNoShift" />
+								<Value Type="1" Value="8192" Text="skShift" />
+								<Value Type="1" Value="32768" Text="skAlt" />
+								<Value Type="1" Value="16384" Text="skCtrl" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; button." Action="ClickButton">
+					<ObjectSyntax LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton9" />
+				</Data>
+			</Operation>
+			<Operation Type="{5156EB31-13EC-472C-B819-9EC8D4E9E546}">
+				<Data Action="Click" TBlockIntType="1">
+					<Parameters LangId="{9E432E59-33EF-4EAA-95C6-63FC35AF69EE}">
+						<Parameter Name="Selected Text" DefVarType="0" VarType="8" ValueType="6" ValueValue="По Форма редакторов х" />
+						<Parameter Name="Selected Preferences" DefVarType="0" DefValueType="1" DefValueValue="-10" VarType="3" ValueType="1" ValueValue="-10">
+							<Values IsEnum="True">
+								<Value Type="1" Value="-10" Text="spNone" />
+								<Value Type="1" Value="-11" Text="spNearestToCenter" />
+								<Value Type="1" Value="-12" Text="spLeftMost" />
+								<Value Type="1" Value="-13" Text="spRightMost" />
+								<Value Type="1" Value="-14" Text="spTopMost" />
+								<Value Type="1" Value="-15" Text="spBottomMost" />
+								<Value Type="1" Value="-16" Text="spLargest" />
+								<Value Type="1" Value="-17" Text="spSmallest" />
+							</Values>
+						</Parameter>
+					</Parameters>
+					<ObjectSyntax LangId="{E42909F2-4390-4F5D-94B8-FABF59BABFCE}" Code="Aliases.TestEnvironment_TD32_.FMain.MDIClient;" />
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{285FB04D-2886-42D9-942B-5BFBED086C35}" />
+	<Parameters Key="{DBFE8541-1463-436B-9C95-193636F7E284}" />
+</Root>

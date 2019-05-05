@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="6" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}" ParallelWalk="True">
+		<Children>
+			<Child Name="Sys" Key="{3D73B02C-FCB4-49E1-837D-822C9F5DB965}" ParallelWalk="True">
+				<Properties>
+					<Property Name="Name">
+						<Value PropertyType="0" Value="Sys" Type="5" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="TestEnvironment_TD32_" Key="{ADF2DBD7-BBA0-4EB0-9213-42EF85F6395F}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="TestEnvironment(TD32)" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="FMain" Key="{48244EC1-AD6B-4737-B4A9-DAFF6BB4D3C0}" ParallelWalk="True">
+								<Image FileName="-1601314892" Left="0" Top="0" Right="874" Bottom="663" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value PropertyType="0" Value="TFMain" Type="5" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value PropertyType="0" Value="FMain" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="MDIClient" Key="{A6E9D05E-1F6B-4C08-ACA6-4DD20C5EC7CE}" ParallelWalk="True">
+										<Image FileName="-822842998" Left="0" Top="125" Right="1920" Bottom="1040" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="MDIClient" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="" Type="5" />
+											</Property>
+											<Property Name="Index">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="FEdits" Key="{D1A9020F-44F4-45DF-91FC-D7DD7E2C72BC}" ParallelWalk="True">
+												<Image FileName="-822842998" Left="0" Top="125" Right="1920" Bottom="1015" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TFEdits" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="FEdits" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="sbMain" Key="{0D6C2F33-16BB-4151-9015-9868B4A7BB5E}" ParallelWalk="True">
+														<Image FileName="-822842998" Left="0" Top="125" Right="1920" Bottom="1015" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TScrollBox" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="sbMain" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="pMainPanel" Key="{8249E29C-D693-40CB-93A8-8461E0D2F1A8}" ParallelWalk="True">
+																<Image FileName="-822842998" Left="12" Top="127" Right="309" Bottom="1004" />
+																<Properties>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TPanel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="pMainPanel" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="mTest" Key="{9ACACAD2-6BFB-4A17-BD15-E0D375942660}" ParallelWalk="True">
+																		<Image FileName="-822842998" Left="15" Top="130" Right="306" Bottom="189" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbMemo" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="mTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="mTestEdit" Key="{0A446B4A-9EA0-4D3F-8B3F-79FB83382D7F}" ParallelWalk="True">
+																				<Image FileName="-822842998" Left="15" Top="145" Right="306" Bottom="189" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxMemo" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="mTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TcxCustomInnerMemo" Key="{4913B3E6-FAE1-4E4C-A262-B44ED528A7AD}" ParallelWalk="True">
+																						<Image FileName="-822842998" Left="15" Top="145" Right="306" Bottom="189" />
+																						<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value PropertyType="0" Value="TcxCustomInnerMemo" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="edTest" Key="{CEDDF855-CF6D-477F-9C94-23E916FF4902}" ParallelWalk="True">
+																		<Image FileName="1390984201" Left="15" Top="195" Right="306" Bottom="231" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbTextEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="edTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="edTestEdit" Key="{513E8030-9DA4-4D19-AED5-8DB68AA37779}" ParallelWalk="True">
+																				<Image FileName="1390984201" Left="15" Top="210" Right="306" Bottom="231" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxTextEdit" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="edTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TcxCustomInnerTextEdit" Key="{DB3328DA-1C62-423A-BEEE-AB61D460980E}" ParallelWalk="True">
+																						<Image FileName="1390984201" Left="18" Top="213" Right="304" Bottom="226" />
+																						<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="ceTest" Key="{6222DEF4-8F27-4911-9A66-51D84F96ACF9}" ParallelWalk="True">
+																		<Image FileName="-448142783" Left="15" Top="488" Right="306" Bottom="524" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbCurrencyEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="ceTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ceTestEdit" Key="{2464318E-808B-44D5-BA2E-DDA5BEBDD16C}" ParallelWalk="True">
+																				<Image FileName="-448142783" Left="15" Top="503" Right="306" Bottom="524" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxCurrencyEdit" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="ceTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TcxCustomInnerTextEdit" Key="{B79C56CE-5803-4D06-A68B-208EBEB58DAB}" ParallelWalk="True">
+																						<Image FileName="-448142783" Left="18" Top="506" Right="304" Bottom="519" />
+																						<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="ccbTest" Key="{A62B6E22-4596-4892-80AA-409E4C7D9170}" ParallelWalk="True">
+																		<Image FileName="363329057" Left="15" Top="530" Right="306" Bottom="566" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbCheckComboBox" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="ccbTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="ccbTestEdit" Key="{F6D5F9B1-41A1-4E0E-89AC-D8A033817527}" ParallelWalk="True">
+																				<Image FileName="363329057" Left="15" Top="545" Right="306" Bottom="566" />
+																				<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxCheckComboBox" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="ccbTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="seTest" Key="{EC65F995-88E4-4385-A614-FB5E34874F3A}" ParallelWalk="True">
+																		<Image FileName="-605353198" Left="15" Top="613" Right="306" Bottom="649" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbSpinEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="seTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="seTestEdit" Key="{F7C61DB5-4D75-4AA4-B10E-F2B4EEA86F0B}" ParallelWalk="True">
+																				<Image FileName="-605353198" Left="15" Top="628" Right="306" Bottom="649" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxSpinEdit" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="seTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="TcxCustomInnerTextEdit" Key="{A69A15EC-0FAE-4B59-99ED-88FD8BA4CC29}" ParallelWalk="True">
+																						<Image FileName="-605353198" Left="18" Top="631" Right="287" Bottom="644" />
+																						<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="deTest" Key="{3E850122-480B-40C4-9DA9-4454EF9EE3CB}" ParallelWalk="True">
+																		<Image FileName="1386050513" Left="15" Top="697" Right="306" Bottom="733" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbDateEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="deTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="deTestEdit" Key="{4F225899-286E-4534-90B5-FD88609D7F91}" ParallelWalk="True">
+																				<Image FileName="1386050513" Left="15" Top="712" Right="306" Bottom="733" />
+																				<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxDateEdit" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="deTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="peTest" Key="{E03E4569-FE9F-4A44-93EA-04324468B15B}" ParallelWalk="True">
+																		<Image FileName="-1922622482" Left="15" Top="739" Right="306" Bottom="773" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbProgressEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="peTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="peTestProgress" Key="{DAD4441A-AD99-4966-8822-70BCA91A564B}" ParallelWalk="True">
+																				<Image FileName="-1922622482" Left="37" Top="754" Right="284" Bottom="775" />
+																				<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxProgressBar" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="peTestProgress" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="peTestUp" Key="{200301D6-8F7F-4D35-9823-C06B453D2D9C}" ParallelWalk="True">
+																				<Image FileName="-824227056" Left="287" Top="754" Right="306" Bottom="773" />
+																				<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxButton" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="peTestUp" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="peTestDown" Key="{D08096B7-19FF-4140-8DB9-7C3F720271FF}" ParallelWalk="True">
+																				<Image FileName="-890885502" Left="15" Top="754" Right="34" Bottom="773" />
+																				<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxButton" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="peTestDown" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="lueTest" Key="{BFFA6F87-1247-472C-B4CC-BEEEC22E8922}" ParallelWalk="True">
+																		<Image FileName="1224584984" Left="15" Top="926" Right="306" Bottom="962" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbLookUpEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="lueTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="lueTestEdit" Key="{7D860B13-370B-477E-96A9-2E02B43475C6}" ParallelWalk="True">
+																				<Image FileName="1224584984" Left="15" Top="941" Right="306" Bottom="962" />
+																				<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TsmLookUpComboBox" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="lueTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="cbTest" Key="{960356B3-69A4-4219-9A6C-D803A46B92C5}" ParallelWalk="True">
+																		<Image FileName="1402487292" Left="15" Top="321" Right="306" Bottom="358" />
+																		<Properties>
+																			<Property Name="ClassName">
+																				<Value PropertyType="0" Value="TsmGbCheckBoxEdit" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="cbTest" Type="5" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="cbTestEdit" Key="{A6B4C95D-F5BD-4994-8B9D-C621D0F869C2}" ParallelWalk="True">
+																				<Image FileName="1402487292" Left="15" Top="329" Right="86" Bottom="350" />
+																				<TypeInfo Item0="{09CD3DFC-2B57-4E8A-BA06-23667661B0B8}" />
+																				<Properties>
+																					<Property Name="ClassName">
+																						<Value PropertyType="0" Value="TcxCheckBox" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="cbTestEdit" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="pButtonsPanel" Key="{7CCA2F84-2A83-49F8-8378-B06178A3D53C}" ParallelWalk="True">
+																<Image FileName="61336328" Left="330" Top="127" Right="405" Bottom="1004" />
+																<Properties>
+																	<Property Name="ClassName">
+																		<Value PropertyType="0" Value="TPanel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="pButtonsPanel" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxButton" Key="{1BD01D10-3620-468D-BCDA-4C381A06401E}" ParallelWalk="True">
+																		<Image FileName="61336328" Left="330" Top="165" Right="405" Bottom="189" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="7" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton2" Key="{A4BC551A-CEAB-4073-BA6C-393244543036}" ParallelWalk="True">
+																		<Image FileName="-1497229355" Left="330" Top="207" Right="405" Bottom="231" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton3" Key="{0C51FF2F-B2A4-4874-9937-0F70766CF19A}" ParallelWalk="True">
+																		<Image FileName="-243608441" Left="330" Top="332" Right="405" Bottom="356" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="14" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton4" Key="{92ACC035-5FE5-460B-941A-AF4094A071EA}" ParallelWalk="True">
+																		<Image FileName="-1109732819" Left="330" Top="498" Right="405" Bottom="522" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="11" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton5" Key="{EF8B42A5-ADDC-4EAE-87EA-546D3A159D55}" ParallelWalk="True">
+																		<Image FileName="273625618" Left="330" Top="540" Right="405" Bottom="564" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="13" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton6" Key="{20976995-3A42-4DA7-A06F-88C165A05992}" ParallelWalk="True">
+																		<Image FileName="1268804534" Left="330" Top="623" Right="405" Bottom="647" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton7" Key="{76516AA0-20FC-48B6-A2D2-6D67189A58EC}" ParallelWalk="True">
+																		<Image FileName="-267600813" Left="330" Top="707" Right="405" Bottom="731" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="10" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton8" Key="{8E7E1DCF-A213-4E1F-B0F3-A2417203092E}" ParallelWalk="True">
+																		<Image FileName="1122413841" Left="330" Top="747" Right="405" Bottom="771" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="4" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="TcxButton9" Key="{7033F372-FD0B-4E2E-8B85-C4452C7CE722}" ParallelWalk="True">
+																		<Image FileName="567924976" Left="330" Top="936" Right="405" Bottom="960" />
+																		<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxButton" Type="5" />
+																			</Property>
+																			<Property Name="WndCaption">
+																				<Value PropertyType="0" Value="Значение -&gt;" Type="5" />
+																			</Property>
+																			<Property Name="Index">
+																				<Value PropertyType="0" Value="9" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="FTreeList" Key="{E2419C0A-140C-4330-B568-2473264D3954}" ParallelWalk="True">
+												<Image FileName="-137271681" Left="0" Top="125" Right="1920" Bottom="1015" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TFTreeList" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="FTreeList" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="tlTest" Key="{D7EB5B56-46EB-4F8C-A81D-B1B494E6CD1C}" ParallelWalk="True">
+														<Image FileName="-137271681" Left="0" Top="125" Right="1920" Bottom="1015" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TcxDBTreeList" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="tlTest" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TcxMaskEdit" Key="{7D3A4E94-A3F5-449C-9F1C-E4DA586F3590}" ParallelWalk="True">
+																<Image FileName="1426453586" Left="102" Top="554" Right="200" Bottom="569" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxMaskEdit" Type="5" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value PropertyType="0" Value="уруоуоук" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{8DF0037F-1DFB-4DC0-B18C-AC3E5C98D5F6}" ParallelWalk="True">
+																		<Image FileName="1426453586" Left="103" Top="555" Right="200" Bottom="568" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TcxMaskEdit2" Key="{E9CA832C-425E-4219-BC4D-F0381C364330}" ParallelWalk="True">
+																<Image FileName="2091285397" Left="102" Top="860" Right="200" Bottom="875" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxMaskEdit" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{6F646E85-D34C-4AE0-940C-0B5CF604C20D}" ParallelWalk="True">
+																		<Image FileName="2091285397" Left="103" Top="861" Right="200" Bottom="874" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="FPivotGrid" Key="{0B6858F5-24C1-44B7-92D6-5D749156F97F}" ParallelWalk="True">
+												<Image FileName="-55597661" Left="0" Top="125" Right="1920" Bottom="1015" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value PropertyType="0" Value="TFPivotGrid" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="FPivotGrid" Type="5" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="pgTest" Key="{FE2F262D-B8EB-4BB9-BBD7-16B303FCD31C}" ParallelWalk="True">
+														<Image FileName="-55597661" Left="0" Top="125" Right="1920" Bottom="1015" />
+														<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value PropertyType="0" Value="TsmPivotGrid" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="pgTest" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="TcxSpinEdit" Key="{28FB9F7A-89E0-4B1B-9D5E-3A90EEE0ECCD}" ParallelWalk="True">
+																<Image FileName="-1976352343" Left="869" Top="269" Right="973" Bottom="287" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxSpinEdit" Type="5" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value PropertyType="0" Value="80" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{A47D1A7C-4B1C-4B02-8AD4-7C469A4044DF}" ParallelWalk="True">
+																		<Image FileName="-1976352343" Left="870" Top="271" Right="956" Bottom="284" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TcxSpinEdit2" Key="{8A6C7336-B9E5-4F4B-A814-B72D85D75C3D}" ParallelWalk="True">
+																<Image FileName="-1328020630" Left="974" Top="269" Right="1078" Bottom="287" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxSpinEdit" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{A85C00B0-E4E6-490E-B98A-58405ED469F9}" ParallelWalk="True">
+																		<Image FileName="-1328020630" Left="975" Top="271" Right="1061" Bottom="284" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TcxSpinEdit3" Key="{25EE61F3-88DF-445C-9644-16931CA52AC1}" ParallelWalk="True">
+																<Image FileName="570099181" Left="869" Top="231" Right="973" Bottom="249" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxSpinEdit" Type="5" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value PropertyType="0" Value="300" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{4448C3B6-F94D-4CCD-ABDA-D1B6E7771549}" ParallelWalk="True">
+																		<Image FileName="570099181" Left="870" Top="233" Right="956" Bottom="246" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TcxSpinEdit4" Key="{5A2EF1F5-B73A-4473-B379-1FFE0D2309C0}" ParallelWalk="True">
+																<Image FileName="-2064670543" Left="974" Top="269" Right="1078" Bottom="287" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxSpinEdit" Type="5" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value PropertyType="0" Value="600" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{0FF9B1E2-12AF-41CC-94D8-68FA1816AFB4}" ParallelWalk="True">
+																		<Image FileName="-2064670543" Left="975" Top="271" Right="1061" Bottom="284" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="TcxSpinEdit5" Key="{75ADE0A2-67B3-469D-A834-C9F600BFBEB0}" ParallelWalk="True">
+																<Image FileName="-1525452097" Left="1079" Top="288" Right="1183" Bottom="306" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="TcxSpinEdit" Type="5" />
+																	</Property>
+																	<Property Name="WndCaption">
+																		<Value PropertyType="0" Value="400" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="TcxCustomInnerTextEdit" Key="{BAD2FCDA-CD44-4208-984C-07E94D4CC4EE}" ParallelWalk="True">
+																		<Image FileName="-1525452097" Left="1080" Top="290" Right="1166" Bottom="303" />
+																		<TypeInfo Item0="{936847A4-CE9C-4059-8C53-5F82B9E49462}" />
+																		<Properties>
+																			<Property Name="WndClass">
+																				<Value PropertyType="0" Value="TcxCustomInnerTextEdit" Type="5" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="dxRibbon" Key="{4FD919BC-08D9-4150-8FC5-1331DE4D10A7}" ParallelWalk="True">
+										<Image FileName="-1601314892" Left="8" Top="31" Right="866" Bottom="133" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value PropertyType="0" Value="TdxRibbon" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="dxRibbon" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="TcxCheckComboBoxPopupWindow" Key="{D20361DD-362D-49E0-8A63-B306290EACD0}" ParallelWalk="True">
+								<Image FileName="-1765861429" Left="0" Top="0" Right="289" Bottom="41" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="TcxCheckComboBoxPopupWindow" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TcxEditListBoxContainer" Key="{2A063E7E-0187-4502-B245-958A142FF786}" ParallelWalk="True">
+										<Image FileName="-1765861429" Left="1" Top="1" Right="288" Bottom="40" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxEditListBoxContainer" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TcxCustomCheckComboBoxListBox" Key="{08EC29FC-8F1D-469B-8792-47E004DE5594}" ParallelWalk="True">
+												<Image FileName="-1765861429" Left="1" Top="1" Right="288" Bottom="40" />
+												<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="TcxCustomCheckComboBoxListBox" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="TcxDateEditPopupWindow" Key="{C2BA9653-B8E2-4D06-95C2-79F04A4CC455}" ParallelWalk="True">
+								<Image FileName="30901772" Left="0" Top="0" Right="190" Bottom="197" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="TcxDateEditPopupWindow" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TcxPopupCalendar" Key="{32E532D5-C11D-40D1-B410-F4CAD6412040}" ParallelWalk="True">
+										<Image FileName="30901772" Left="1" Top="1" Right="189" Bottom="196" />
+										<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxPopupCalendar" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="TcxComboBoxPopupWindow" Key="{FAAD1E3D-B210-457D-AC23-2706DD9427C8}" ParallelWalk="True">
+								<Image FileName="1752101043" Left="0" Top="0" Right="289" Bottom="56" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="TcxComboBoxPopupWindow" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TcxCustomLookupDBGrid" Key="{8F339400-6947-4C1A-A3D1-E5D513C8DDAA}" ParallelWalk="True">
+										<Image FileName="1752101043" Left="1" Top="1" Right="288" Bottom="55" />
+										<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxCustomLookupDBGrid" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="TcxPivotGridCustomizationForm" Key="{6A0860DE-F150-4DA1-A6F9-182606D4D4BF}" ParallelWalk="True">
+								<Image FileName="1849321887" Left="0" Top="0" Right="200" Bottom="200" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="TcxPivotGridCustomizationForm" Type="5" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value PropertyType="0" Value="PivotGrid Field List" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TcxFieldListListBox" Key="{FC97A24C-8556-4B59-AB50-8E5AFEAB2B90}" ParallelWalk="True">
+										<Image FileName="1849321887" Left="19" Top="61" Right="181" Bottom="150" />
+										<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxFieldListListBox" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="TcxGroupBox" Key="{5677C105-53B8-4299-B9A6-40DE885645C8}" ParallelWalk="True">
+										<Image FileName="457225992" Left="16" Top="153" Right="184" Bottom="184" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxGroupBox" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TcxComboBox" Key="{0020FB46-7553-4B9D-AD17-51EDC48E2D9C}" ParallelWalk="True">
+												<Image FileName="457225992" Left="102" Top="158" Right="179" Bottom="179" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="TcxComboBox" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="TcxButton" Key="{3DA1EABA-AF53-4A8F-AACD-794389199E1A}" ParallelWalk="True">
+												<Image FileName="-1845682920" Left="21" Top="158" Right="96" Bottom="179" />
+												<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="TcxButton" Type="5" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value PropertyType="0" Value="Add To" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="TcxPivotGridFilterPopupWindow" Key="{607234A4-FF85-43EE-B02D-8BCECC95B471}" ParallelWalk="True">
+								<Image FileName="-1143598417" Left="0" Top="0" Right="150" Bottom="150" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="TcxPivotGridFilterPopupWindow" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="TcxPivotGridFilterPopupListBox" Key="{770480BF-D6A1-4F0E-9D48-7E705977205B}" ParallelWalk="True">
+										<Image FileName="-1143598417" Left="1" Top="1" Right="149" Bottom="123" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxPivotGridFilterPopupListBox" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="TcxCustomInnerCheckListBox" Key="{379FBC99-1A79-4C8B-AFFA-9FF379BB8350}" ParallelWalk="True">
+												<Image FileName="-1143598417" Left="1" Top="1" Right="149" Bottom="123" />
+												<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value PropertyType="0" Value="TcxCustomInnerCheckListBox" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="TcxButton" Key="{35EEA2CF-2540-4D3F-B872-D0CB9EE801D5}" ParallelWalk="True">
+										<Image FileName="810011639" Left="28" Top="126" Right="76" Bottom="146" />
+										<TypeInfo Item0="{08DF6C58-369B-473D-9E53-7356C7D188DE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="TcxButton" Type="5" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value PropertyType="0" Value="OK" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="WINWORD" Key="{58633B0C-867E-4D55-A3A2-74F5CCAF12CC}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="WINWORD" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formDocxMicrosoftWord" Key="{9CB2326A-48EF-4961-9BEC-3806758971C4}" ParallelWalk="True">
+								<TypeInfo Item0="{256A6858-36AE-49E2-AD32-F23A8BED5230}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Form" Type="5" />
+									</Property>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="OpusApp" Type="5" />
+									</Property>
+									<Property Name="ObjectGroupIndex">
+										<Value PropertyType="0" Value="1" Type="0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{AF8543AF-1FD2-49AA-BD9F-05343479AD03}" ParallelWalk="True">
+										<Properties>
+											<Property Name="WndClass">
+												<Value PropertyType="0" Value="_WwF" Type="5" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelDocx" Key="{99885D9F-E067-473E-9D1D-7B0609C5AFD6}" ParallelWalk="True">
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="Caption">
+														<Value PropertyType="0" Value="Задание.docx (защищенный просмотр)" Type="5" />
+													</Property>
+													<Property Name="ObjectGroupIndex">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="OPHPreviewerParentWindow" Key="{15F12336-F1B8-4771-815A-74B7A9F036F9}" ParallelWalk="True">
+														<Properties>
+															<Property Name="WndClass">
+																<Value PropertyType="0" Value="OPH Previewer Parent Window" Type="5" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="OPHPreviewerWindow" Key="{DD3485E7-EDD5-496C-BB83-8643366A3A76}" ParallelWalk="True">
+																<TypeInfo Item0="{92A401DD-7D7C-4FB4-9478-3B60E280F354}" />
+																<Properties>
+																	<Property Name="WndClass">
+																		<Value PropertyType="0" Value="OPH Previewer Window" Type="5" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelMicrosoftWord" Key="{A57FBDD6-09E1-43B2-83F4-0785C508B0DB}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="Caption">
+																				<Value PropertyType="0" Value="Microsoft Word некоммерческое использование (защищенный просмотр)" Type="5" />
+																			</Property>
+																			<Property Name="ObjectGroupIndex">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{0CEFEEF1-638F-430E-A71E-9CF2D1F0F588}" ParallelWalk="True">
+																				<Properties>
+																					<Property Name="WndClass">
+																						<Value PropertyType="0" Value="_WwF" Type="5" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{0A7E1487-F572-4280-AC15-A051CC02DC32}" ParallelWalk="True">
+																						<Properties>
+																							<Property Name="WndClass">
+																								<Value PropertyType="0" Value="_WwB" Type="5" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="client" Key="{095A2D6C-F567-42B8-932A-0E197A5F2CE2}" ParallelWalk="True">
+																								<TypeInfo Item0="{E1BAE67E-FD0E-441A-8367-51007427EFF4}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value PropertyType="0" Value="Client" Type="5" />
+																									</Property>
+																									<Property Name="ControlIndex">
+																										<Value PropertyType="0" Value="2" Type="0" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value PropertyType="0" Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																							<Child Name="panelMicrosoftWord" Key="{3D9B209C-1C68-4B35-8995-08B9E9A533D6}" ParallelWalk="True">
+																								<Image FileName="846932058" Left="24" Top="108" Right="1903" Bottom="1018" />
+																								<TypeInfo Item0="{E3B04E8C-7FE7-484F-8506-AAC11A4803DA}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value PropertyType="0" Value="Panel" Type="5" />
+																									</Property>
+																									<Property Name="Caption">
+																										<Value PropertyType="0" Value="Документ Microsoft Word" Type="5" />
+																									</Property>
+																									<Property Name="ObjectGroupIndex">
+																										<Value PropertyType="0" Value="1" Type="0" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{803B0949-4EF3-4FFC-90BF-6A9F5850AA27}" ParallelWalk="True">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value PropertyType="0" Value="explorer" Type="5" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTaskListThumbnailWnd" Key="{B5AD8F75-8C33-477A-BBD1-2AEF0508087B}" ParallelWalk="True">
+								<Image FileName="2078581053" Left="0" Top="0" Right="1920" Bottom="251" />
+								<TypeInfo Item0="{34C37A48-AC00-4DCC-B540-3B0F2DB02B35}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value PropertyType="0" Value="TaskListThumbnailWnd" Type="5" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="TestEnvironment_TD32_" Owner="{ADF2DBD7-BBA0-4EB0-9213-42EF85F6395F}">
+			<Child Name="FMain" Owner="{48244EC1-AD6B-4737-B4A9-DAFF6BB4D3C0}">
+				<Child Name="MDIClient" Owner="{A6E9D05E-1F6B-4C08-ACA6-4DD20C5EC7CE}">
+					<Child Name="FEdits" Owner="{D1A9020F-44F4-45DF-91FC-D7DD7E2C72BC}">
+						<Child Name="sbMain" Owner="{0D6C2F33-16BB-4151-9015-9868B4A7BB5E}">
+							<Child Name="pMainPanel" Owner="{8249E29C-D693-40CB-93A8-8461E0D2F1A8}">
+								<Child Name="mTest" Owner="{9ACACAD2-6BFB-4A17-BD15-E0D375942660}">
+									<Child Name="mTestEdit" Owner="{0A446B4A-9EA0-4D3F-8B3F-79FB83382D7F}">
+										<Child Name="TcxCustomInnerMemo" Owner="{4913B3E6-FAE1-4E4C-A262-B44ED528A7AD}" />
+									</Child>
+								</Child>
+								<Child Name="edTest" Owner="{CEDDF855-CF6D-477F-9C94-23E916FF4902}">
+									<Child Name="edTestEdit" Owner="{513E8030-9DA4-4D19-AED5-8DB68AA37779}">
+										<Child Name="TcxCustomInnerTextEdit" Owner="{DB3328DA-1C62-423A-BEEE-AB61D460980E}" />
+									</Child>
+								</Child>
+								<Child Name="ceTest" Owner="{6222DEF4-8F27-4911-9A66-51D84F96ACF9}">
+									<Child Name="ceTestEdit" Owner="{2464318E-808B-44D5-BA2E-DDA5BEBDD16C}">
+										<Child Name="TcxCustomInnerTextEdit" Owner="{B79C56CE-5803-4D06-A68B-208EBEB58DAB}" />
+									</Child>
+								</Child>
+								<Child Name="ccbTest" Owner="{A62B6E22-4596-4892-80AA-409E4C7D9170}">
+									<Child Name="ccbTestEdit" Owner="{F6D5F9B1-41A1-4E0E-89AC-D8A033817527}" />
+								</Child>
+								<Child Name="seTest" Owner="{EC65F995-88E4-4385-A614-FB5E34874F3A}">
+									<Child Name="seTestEdit" Owner="{F7C61DB5-4D75-4AA4-B10E-F2B4EEA86F0B}">
+										<Child Name="TcxCustomInnerTextEdit" Owner="{A69A15EC-0FAE-4B59-99ED-88FD8BA4CC29}" />
+									</Child>
+								</Child>
+								<Child Name="deTest" Owner="{3E850122-480B-40C4-9DA9-4454EF9EE3CB}">
+									<Child Name="deTestEdit" Owner="{4F225899-286E-4534-90B5-FD88609D7F91}" />
+								</Child>
+								<Child Name="peTest" Owner="{E03E4569-FE9F-4A44-93EA-04324468B15B}">
+									<Child Name="peTestProgress" Owner="{DAD4441A-AD99-4966-8822-70BCA91A564B}" />
+									<Child Name="peTestUp" Owner="{200301D6-8F7F-4D35-9823-C06B453D2D9C}" />
+									<Child Name="peTestDown" Owner="{D08096B7-19FF-4140-8DB9-7C3F720271FF}" />
+								</Child>
+								<Child Name="lueTest" Owner="{BFFA6F87-1247-472C-B4CC-BEEEC22E8922}">
+									<Child Name="lueTestEdit" Owner="{7D860B13-370B-477E-96A9-2E02B43475C6}" />
+								</Child>
+								<Child Name="cbTest" Owner="{960356B3-69A4-4219-9A6C-D803A46B92C5}">
+									<Child Name="cbTestEdit" Owner="{A6B4C95D-F5BD-4994-8B9D-C621D0F869C2}" />
+								</Child>
+							</Child>
+							<Child Name="pButtonsPanel" Owner="{7CCA2F84-2A83-49F8-8378-B06178A3D53C}">
+								<Child Name="TcxButton" Owner="{1BD01D10-3620-468D-BCDA-4C381A06401E}" />
+								<Child Name="TcxButton2" Owner="{A4BC551A-CEAB-4073-BA6C-393244543036}" />
+								<Child Name="TcxButton3" Owner="{0C51FF2F-B2A4-4874-9937-0F70766CF19A}" />
+								<Child Name="TcxButton4" Owner="{92ACC035-5FE5-460B-941A-AF4094A071EA}" />
+								<Child Name="TcxButton5" Owner="{EF8B42A5-ADDC-4EAE-87EA-546D3A159D55}" />
+								<Child Name="TcxButton6" Owner="{20976995-3A42-4DA7-A06F-88C165A05992}" />
+								<Child Name="TcxButton7" Owner="{76516AA0-20FC-48B6-A2D2-6D67189A58EC}" />
+								<Child Name="TcxButton8" Owner="{8E7E1DCF-A213-4E1F-B0F3-A2417203092E}" />
+								<Child Name="TcxButton9" Owner="{7033F372-FD0B-4E2E-8B85-C4452C7CE722}" />
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="FTreeList" Owner="{E2419C0A-140C-4330-B568-2473264D3954}">
+						<Child Name="tlTest" Owner="{D7EB5B56-46EB-4F8C-A81D-B1B494E6CD1C}">
+							<Child Name="TcxMaskEdit" Owner="{7D3A4E94-A3F5-449C-9F1C-E4DA586F3590}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{8DF0037F-1DFB-4DC0-B18C-AC3E5C98D5F6}" />
+							</Child>
+							<Child Name="TcxMaskEdit2" Owner="{E9CA832C-425E-4219-BC4D-F0381C364330}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{6F646E85-D34C-4AE0-940C-0B5CF604C20D}" />
+							</Child>
+						</Child>
+					</Child>
+					<Child Name="FPivotGrid" Owner="{0B6858F5-24C1-44B7-92D6-5D749156F97F}">
+						<Child Name="pgTest" Owner="{FE2F262D-B8EB-4BB9-BBD7-16B303FCD31C}">
+							<Child Name="TcxSpinEdit" Owner="{28FB9F7A-89E0-4B1B-9D5E-3A90EEE0ECCD}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{A47D1A7C-4B1C-4B02-8AD4-7C469A4044DF}" />
+							</Child>
+							<Child Name="TcxSpinEdit2" Owner="{8A6C7336-B9E5-4F4B-A814-B72D85D75C3D}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{A85C00B0-E4E6-490E-B98A-58405ED469F9}" />
+							</Child>
+							<Child Name="TcxSpinEdit3" Owner="{25EE61F3-88DF-445C-9644-16931CA52AC1}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{4448C3B6-F94D-4CCD-ABDA-D1B6E7771549}" />
+							</Child>
+							<Child Name="TcxSpinEdit4" Owner="{5A2EF1F5-B73A-4473-B379-1FFE0D2309C0}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{0FF9B1E2-12AF-41CC-94D8-68FA1816AFB4}" />
+							</Child>
+							<Child Name="TcxSpinEdit5" Owner="{75ADE0A2-67B3-469D-A834-C9F600BFBEB0}">
+								<Child Name="TcxCustomInnerTextEdit" Owner="{BAD2FCDA-CD44-4208-984C-07E94D4CC4EE}" />
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+				<Child Name="dxRibbon" Owner="{4FD919BC-08D9-4150-8FC5-1331DE4D10A7}" />
+			</Child>
+			<Child Name="TcxCheckComboBoxPopupWindow" Owner="{D20361DD-362D-49E0-8A63-B306290EACD0}">
+				<Child Name="TcxEditListBoxContainer" Owner="{2A063E7E-0187-4502-B245-958A142FF786}">
+					<Child Name="TcxCustomCheckComboBoxListBox" Owner="{08EC29FC-8F1D-469B-8792-47E004DE5594}" />
+				</Child>
+			</Child>
+			<Child Name="TcxDateEditPopupWindow" Owner="{C2BA9653-B8E2-4D06-95C2-79F04A4CC455}">
+				<Child Name="TcxPopupCalendar" Owner="{32E532D5-C11D-40D1-B410-F4CAD6412040}" />
+			</Child>
+			<Child Name="TcxComboBoxPopupWindow" Owner="{FAAD1E3D-B210-457D-AC23-2706DD9427C8}">
+				<Child Name="TcxCustomLookupDBGrid" Owner="{8F339400-6947-4C1A-A3D1-E5D513C8DDAA}" />
+			</Child>
+			<Child Name="TcxPivotGridCustomizationForm" Owner="{6A0860DE-F150-4DA1-A6F9-182606D4D4BF}">
+				<Child Name="TcxFieldListListBox" Owner="{FC97A24C-8556-4B59-AB50-8E5AFEAB2B90}" />
+				<Child Name="TcxGroupBox" Owner="{5677C105-53B8-4299-B9A6-40DE885645C8}">
+					<Child Name="TcxComboBox" Owner="{0020FB46-7553-4B9D-AD17-51EDC48E2D9C}" />
+					<Child Name="TcxButton" Owner="{3DA1EABA-AF53-4A8F-AACD-794389199E1A}" />
+				</Child>
+			</Child>
+			<Child Name="TcxPivotGridFilterPopupWindow" Owner="{607234A4-FF85-43EE-B02D-8BCECC95B471}">
+				<Child Name="TcxPivotGridFilterPopupListBox" Owner="{770480BF-D6A1-4F0E-9D48-7E705977205B}">
+					<Child Name="TcxCustomInnerCheckListBox" Owner="{379FBC99-1A79-4C8B-AFFA-9FF379BB8350}" />
+				</Child>
+				<Child Name="TcxButton" Owner="{35EEA2CF-2540-4D3F-B872-D0CB9EE801D5}" />
+			</Child>
+		</Child>
+		<Child Name="WINWORD" Owner="{58633B0C-867E-4D55-A3A2-74F5CCAF12CC}">
+			<Child Name="formDocxMicrosoftWord" Owner="{9CB2326A-48EF-4961-9BEC-3806758971C4}">
+				<Child Name="panel" Owner="{AF8543AF-1FD2-49AA-BD9F-05343479AD03}">
+					<Child Name="panelDocx" Owner="{99885D9F-E067-473E-9D1D-7B0609C5AFD6}">
+						<Child Name="OPHPreviewerParentWindow" Owner="{15F12336-F1B8-4771-815A-74B7A9F036F9}">
+							<Child Name="OPHPreviewerWindow" Owner="{DD3485E7-EDD5-496C-BB83-8643366A3A76}">
+								<Child Name="panelMicrosoftWord" Owner="{A57FBDD6-09E1-43B2-83F4-0785C508B0DB}">
+									<Child Name="panel" Owner="{0CEFEEF1-638F-430E-A71E-9CF2D1F0F588}">
+										<Child Name="panel" Owner="{0A7E1487-F572-4280-AC15-A051CC02DC32}">
+											<Child Name="client" Owner="{095A2D6C-F567-42B8-932A-0E197A5F2CE2}" />
+											<Child Name="panelMicrosoftWord" Owner="{3D9B209C-1C68-4B35-8995-08B9E9A533D6}" />
+										</Child>
+									</Child>
+								</Child>
+							</Child>
+						</Child>
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="explorer" Owner="{803B0949-4EF3-4FFC-90BF-6A9F5850AA27}">
+			<Child Name="wndTaskListThumbnailWnd" Owner="{B5AD8F75-8C33-477A-BBD1-2AEF0508087B}" />
+		</Child>
+	</LogicalNodes>
+	<TypeInfo StoreCodeCompletion="1">
+		<Child Hash="-934726023" Key="{936847A4-CE9C-4059-8C53-5F82B9E49462}">
+			<Data Properties="315BF2317DA6C248A352FC7A0A5AE31AUFFFFFFFFFFFFFFFFV4LCZZY">
+				<FunctionDescriptions>
+					<Child Name="SetText" Doc="Enters text in the text editor." IsBasic="True" Param0="Text" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wText" Doc="Contents of the edit control, as text string." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="wSelection" Doc="Retrieves the selected text." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="1098928521" Key="{08DF6C58-369B-473D-9E53-7356C7D188DE}">
+			<Data Properties="2ED86DE493447D499C9F2D9B2CE38A45UFFFFFFFFFFFFFFFFV4LAZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Performs a single click on the specified button." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="268948303" Key="{92A401DD-7D7C-4FB4-9478-3B60E280F354}">
+			<Data Properties="33E534CFDE43B3418986C0A277519CEEUFFFFFFFFFFFFFFFFV4L9ZZY">
+				<FunctionDescriptions>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-35007516" Key="{256A6858-36AE-49E2-AD32-F23A8BED5230}">
+			<Data Properties="C06CG81169E7243BCF1CCD807740404UFFFFFFFFFFFFFFFFV4K11ZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="ObjectGroupIndex" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="ObjectIdentifier" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="2000" Type="0" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-769699156" Key="{E1BAE67E-FD0E-441A-8367-51007427EFF4}">
+			<Data Properties="14563C75E9DA1C45A6E14F5A234E596BUFFFFFFFFFFFFFFFFV4LDZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="ObjectGroupIndex" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="ObjectIdentifier" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="-1990252817" Key="{E3B04E8C-7FE7-484F-8506-AAC11A4803DA}">
+			<Data Properties="2EF797D5293BC44182D6431239905693UFFFFFFFFFFFFFFFFV4LFZZY">
+				<FunctionDescriptions>
+					<Child Name="Visible" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Height" IsBasic="True" Data="ZI4L2L4ZN13ZN">
+						<ReturnValue Param0="19" />
+					</Child>
+					<Child Name="Enabled" IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="ObjectGroupIndex" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="ObjectIdentifier" IsBasic="True" Data="ZI4L2L4ZOCZN">
+						<ReturnValue Param0="12" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="1875001315" Key="{09CD3DFC-2B57-4E8A-BA06-23667661B0B8}">
+			<Data Properties="FEBA41ACA3A9C64297FE82A8F622D37DUFFFFFFFFFFFFFFFFV4LBZZY">
+				<FunctionDescriptions>
+					<Child Name="ClickButton" Doc="Moves the mouse cursor to a control and clicks it with the left mouse button until the specified state is reached." IsBasic="True" Param0="State" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="12" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="wState" Doc="Gets or sets the current state of the check box, that is, cbUnchecked, cbChecked or cbGrayed." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+		<Child Hash="631633770" Key="{34C37A48-AC00-4DCC-B540-3B0F2DB02B35}">
+			<Data Properties="2D22F369A2ACB24294BE63458830313DUFFFFFFFFFFFFFFFFV4LFZZY">
+				<FunctionDescriptions>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Close" Doc="Closes the specified Window object." IsBasic="True" Param0="WaitTimeout" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="2000" Type="0" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Position" Doc="Sets the specified position and size for the specific Window object." IsBasic="True" Param0="Left" Param1="Top" Param2="Width" Param3="Height" Data="ZI4L1L4L4Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param2>
+						<Param3>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="1" />
+						</Param3>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="SetFocus" Doc="Sets focus to the specified Window object." IsBasic="True" Data="ZI4L1L4ZN18ZN">
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Click" Doc="Simulates a left-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="ClickR" Doc="Simulates a right-button single click in a window or control as specified (relative position, shift keys)." IsBasic="True" Param0="ClientX" Param1="ClientY" Param2="Shift" Data="ZI4L1L4L3Z018ZN">
+						<Param0>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param0>
+						<Param1>
+							<TypeDesc Param0="3" />
+							<ParamDesc Flags="49" Value="-1" Type="0" />
+						</Param1>
+						<Param2>
+							<TypeDesc Param0="29" Type0="TShiftKey" />
+							<ParamDesc Flags="49" Value="0" Type="0" />
+						</Param2>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Keys" Doc="Simulates one or several keypresses." IsBasic="True" Param0="Keys" Data="ZI4L1L4L1Z018ZN">
+						<Param0>
+							<TypeDesc Param0="8" />
+							<ParamDesc Flags="1" />
+						</Param0>
+						<ReturnValue Param0="24" />
+					</Child>
+					<Child Name="Visible" Doc="Specifies whether an onscreen object is visible to users." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="Width" Doc="The object&apos;s width in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Height" Doc="The object&apos;s height in pixels." IsBasic="True" Data="ZI4L2L4ZO3ZN">
+						<ReturnValue Param0="3" />
+					</Child>
+					<Child Name="Enabled" Doc="Specifies whether the object is enabled or disabled." IsBasic="True" Data="ZI4L2L4ZOBZN">
+						<ReturnValue Param0="11" />
+					</Child>
+					<Child Name="WndCaption" Doc="Returns the window&apos;s caption." IsBasic="True" Data="ZI4L2L4ZO8ZN">
+						<ReturnValue Param0="8" />
+					</Child>
+				</FunctionDescriptions>
+			</Data>
+		</Child>
+	</TypeInfo>
+</Root>

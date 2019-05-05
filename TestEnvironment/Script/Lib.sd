@@ -1,0 +1,44 @@
+﻿function RandString: string;   // генерирует произвольную строку
+const
+  Chars = 'abcdefghijklmnopqrstuvwxyzабвгдеёжзийклмнопрстуфхцчшщъыьэюя0123456789.,!"№;%:?*()<>[]{}''_-+=/\| ';
+var
+  s: string;
+  i: byte;
+begin
+  Randomize;
+  s := '';
+  for i := 0 to 1 + Random(20) do s:= s + Chars[Random(Length(Chars))];
+  result := s;
+end;
+
+function RandText: string;   // генерирует произвольный многострочный текст
+var
+  s: string;
+  i: byte;
+begin
+  s := RandString;
+  for i := 0 to Random(10) do s:= s + #10 + RandString;
+  result := s;
+end;
+
+function RandNumber: string;   // генерирует произвольное число от 1 до 10 цифр
+var
+  s: string;
+  i: byte;
+begin
+  Randomize;
+  s := '';
+  for i := 0 to 1 + Random(10) do s:= s + Chr(Ord('0') + Random(10));
+  result := s;
+end;
+
+function RandDate: real;   // генерирует произвольное число от 1 до 10 цифр
+var
+  s: string;
+  i: byte;
+begin
+  Randomize;
+  s := '';
+  for i := 0 to 4 do s:= s + Chr(Ord('0') + Random(10));
+  result := StrToFloat(s);
+end;

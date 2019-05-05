@@ -1,0 +1,147 @@
+﻿uses Lib;
+
+procedure ChooseItemsCCB;
+var
+  size, i: byte;
+begin
+  Randomize;
+  size := Aliases.TestEnvironment_TD32_.TcxCheckComboBoxPopupWindow.TcxEditListBoxContainer.TcxCustomCheckComboBoxListBox.Items.Count;
+  for i := 0 to 1 + Random(size) do
+    Aliases.TestEnvironment_TD32_.TcxCheckComboBoxPopupWindow.TcxEditListBoxContainer.TcxCustomCheckComboBoxListBox.Selected[Random(size)] := true;
+end;
+
+procedure ClickUpOrDown;
+var
+  i: byte;
+begin
+  Randomize;
+  if Random(2) mod 2 = 0 then
+    for i := 1 to Random(10) do
+      Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.Click(280, 4)
+  else  
+    for i := 1 to Random(10) do
+      Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.Click(275, 4);
+end;
+
+procedure ClickPlusOrMinus;
+var
+  i: byte;
+begin
+  Randomize;
+  if Random(2) mod 2 = 0 then
+    for i := 1 to Random(10) do
+      Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestUp.Click
+  else  
+    for i := 1 to Random(10) do
+      Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestDown.Click;
+end;
+
+procedure ChooseItemLUE;
+begin
+  Randomize;
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(259, 10);
+  Aliases.TestEnvironment_TD32_.TcxComboBoxPopupWindow.TcxCustomLookupDBGrid.Click(200, 1 + Random(3) * 25);
+end;
+
+procedure Test1;
+begin
+  Randomize;
+  //Runs the "TestEnvironment_TD32" tested application.
+  TestedApps.TestEnvironment_TD32.Run;
+  //Maximizes the 'FMain' window.
+  Aliases.TestEnvironment_TD32_.FMain.Maximize;
+  //Clicks the 'dxRibbonTab1|[0]|Форма редакторов' item of the 'dxRibbon' bar.
+  Aliases.TestEnvironment_TD32_.FMain.dxRibbon.ClickItem('dxRibbonTab1|[0]|Форма редакторов');
+  //Set focus at the 'TcxCustomInnerMemo' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.SetFocus;
+  //Enters text in the 'TcxCustomInnerMemo' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.Keys(RandText);
+  //Clicks the 'TcxButton' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton.ClickButton;
+  //Checks the appearance of the entered value.
+  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+    Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.mTest.mTestEdit.TcxCustomInnerMemo.wText,7).Exists 
+  then Log.Error('Memo: значение не появилось.');
+  //Set focus at the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit.SetFocus;
+  //Enters some text in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit.SetText(RandString);
+  //Clicks the 'TcxButton2' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton2.ClickButton;
+  //Checks the appearance of the entered value.
+  //if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+  //  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.edTest.edTestEdit.TcxCustomInnerTextEdit.Text,1).Exists 
+  //then Log.Error('TextEdit: значение не появилось.');
+  //Clicks the 'TcxButton3' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3.ClickButton;
+  //Checks the appearance of the entered value.
+  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+    Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.Checked,14).Exists 
+  then Log.Error('CheckBox: значение false не появилось.');
+  //Sets the state of the 'cbTestEdit' check box to cbChecked.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.ClickButton(cbChecked);
+  //Clicks the 'TcxButton3' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton3.ClickButton;
+  //Checks the appearance of the entered value.
+  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+    Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.cbTest.cbTestEdit.Checked,14).Exists 
+  then Log.Error('CheckBox: значение true не появилось.');
+  //Set focus at the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit.SetFocus;
+  //Enters some value in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit.SetText(RandNumber/100);
+  //Clicks the 'TcxButton4' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton4.ClickButton;
+  //Checks the appearance of the entered value.
+  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+    Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ceTest.ceTestEdit.TcxCustomInnerTextEdit.wText,11).Exists 
+  then Log.Error('CurrencyEdit: значение не появилось.');
+  //Set focus at the 'ccbTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.ccbTest.ccbTestEdit.SetFocus;
+  //Choose items in CheckComboBox.
+  ChooseItemsCCB;
+  //Clicks the 'TcxButton5' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton5.ClickButton;
+  //Set focus at the 'TcxCustomInnerTextEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit.SetFocus;
+  //Enters some value in the 'TcxCustomInnerTextEdit' text editor.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit.SetText(Random(100));
+  //Click up or down
+  ClickUpOrDown;
+  //Clicks the 'TcxButton6' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton6.ClickButton;
+  //Checks the appearance of the entered value.
+//  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+//    Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.seTest.seTestEdit.TcxCustomInnerTextEdit.Text,2).Exists 
+//  then Log.Error('SpinEdit: значение не появилось.');
+  //Set focus at the 'deTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit.SetFocus;
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit.SetDate(RandDate);
+  //Clicks the 'TcxButton7' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton7.ClickButton;
+  //Checks the appearance of the entered value.
+  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+    DateToStr(Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.deTest.deTestEdit.GetDate),10).Exists 
+  then Log.Error('DateEdit: значение не появилось.');
+  //Set focus at the 'peTestProgress' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress.SetFocus;
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress.SetPosition(Random(100));
+  ClickPlusOrMinus;
+  //Clicks the 'TcxButton8' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton8.ClickButton;
+  //Checks the appearance of the entered value.
+//  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+//    FloatToStr(Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.peTest.peTestProgress.Position),4).Exists 
+//  then Log.Error('ProgressEdit: значение не появилось.');
+  ChooseItemLUE;
+  //Clicks at x of the 'lueTestEdit' object.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.Click(275, 4);
+  ChooseItemLUE;
+  //Clicks the 'TcxButton9' button.
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pButtonsPanel.TcxButton9.ClickButton;
+  //Checks the appearance of the entered value.
+  if Not Sys.Process('TestEnvironment(TD32)').Find('Caption', 
+    Aliases.TestEnvironment_TD32_.FMain.MDIClient.FEdits.sbMain.pMainPanel.lueTest.lueTestEdit.ItemIndex + 1,9).Exists 
+  then Log.Error('LookUpEdit: значение не появилось.');
+  Aliases.TestEnvironment_TD32_.FMain.MDIClient.Click(149, 898);
+end;
